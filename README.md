@@ -80,6 +80,8 @@ After the script has run, make sure to open the output CSV file and go through t
 
 ## Disclaimer
 
+The script has not been thoroughly tested and might run into errors if the song name, performer or results are in a format which has not been encountered yet.
+
 It has been stated clearly that the script is a basic prototype and is not always accurate, thus, you should take its results with a level of discretion.
 
 If you would fully like to know the rights of a certain song and have not obtained results from this script, I advise you to manually check through the [ASCAP](https://www.ascap.com/repertory#/), [BMI](https://repertoire.bmi.com/) and [SESAC](https://www.sesac.com/repertory/search) repertories, and see if any results come up on there. Keeping this in mind, these sources might still have issues with finding the song you are looking, so there is always a level of risk involved.
