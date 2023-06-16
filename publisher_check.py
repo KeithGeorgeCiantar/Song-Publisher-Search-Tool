@@ -10,7 +10,7 @@ parser.add_argument('-in', '--input_file', type=str, nargs=1, required=True,
                     help="""The path of the input CSV playlist file.""")
 parser.add_argument('-out', '--output_file', type=str, nargs=1, required=True,
                     help="""The path of the output CSV publishers file.""")
-parser.add_argument('-so', '--serarch_options', type=str, nargs=1, default=['song-performer+song-only'],
+parser.add_argument('-so', '--search_options', type=str, nargs=1, default=['song-performer+song-only'],
                     choices=['song-performer+song-only', 'song-performer'],
                     help="""The type of search that is carried out
                             (song-performer-song-only - if the song-performer
@@ -23,7 +23,7 @@ args = parser.parse_args()
 
 playlist_name = args.input_file[0]
 save_name = args.output_file[0]
-search_options = args.serarch_options[0]
+search_options = args.search_options[0]
 
 # Show the arguments to make sure they are correct
 print('Input file:', playlist_name)
