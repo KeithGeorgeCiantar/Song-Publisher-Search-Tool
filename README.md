@@ -46,7 +46,7 @@ optional arguments:
                         The path of the input CSV playlist file.
   -out OUTPUT_FILE, --output_file OUTPUT_FILE
                         The path of the output CSV publishers file.
-  -so {song-performer+song-only,song-performer}, --serarch_options {song-performer+song-only,song-performer}
+  -so {song-performer+song-only,song-performer}, --search_options {song-performer+song-only,song-performer}
                         The type of search that is carried out (song-
                         performer-song-only - if the song-performer search
                         doesn't yield results, the song-only search is carried
